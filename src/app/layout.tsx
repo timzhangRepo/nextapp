@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
+      <footer>
+        <p>Page rendered on {''}</p>
+        {new Date().toLocaleString()}
+      </footer>
+      </body>
     </html>
   );
 }
