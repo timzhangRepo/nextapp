@@ -1,8 +1,14 @@
+import Censorted from "@/components/Censored/Censored";
+import HitCounter from "@/components/HitCounter";
 import Image from "next/image";
 
 function Home() {
   return (
-    <div>my first app</div>
+    <div>
+      <Censorted> 
+        <HitCounter/>
+      </Censorted>
+    </div>
   );
 }
 
