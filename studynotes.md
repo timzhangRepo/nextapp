@@ -24,5 +24,10 @@ client                           | first paint & content painted -> download JS 
 ## Routing, App Router
 Next uses file based routing system,
 
-In next.js page can not be used on their own, it has to be used by layouts (wrapper)
+app里面放folder，folder下define page即可。routing是根据folder名称
 
+By having a special name for page files, 
+Only the content inside the page file will be publicly accessible. 
+
+## 
+Layout 用于Side Panel，放在左边， side panel 里放link
